@@ -181,6 +181,48 @@
       },
       "type": "string",
       "defaultValue": "172.16.0.0/24"
+    },
+    "enableArtifactManager": {
+      "metadata": {
+        "description": "Whether config Azure native artifact manager"
+      },
+      "type": "string",
+      "defaultValue": "no"
+    },
+    "storageAccountName": {
+      "metadata": {
+        "description": "Storage account name for artifact manager"
+      },
+      "type": "string",
+      "defaultValue": ""
+    },
+    "storageAccountKey": {
+      "metadata": {
+        "description": "Storage account key for artifact manager"
+      },
+      "type": "string",
+      "defaultValue": ""
+    },
+    "storageEndpoint": {
+      "metadata": {
+        "description": ""
+      },
+      "type": "string",
+      "defaultValue": "jenkins"
+    },
+    "artifactContainer": {
+      "metadata": {
+        "description": "Container name used for artifact manager"
+      },
+      "type": "string",
+      "defaultValue": "jenkins"
+    },
+    "artifactPrefix": {
+      "metadata": {
+        "description": "Prefix in containr for artifact manager"
+      },
+      "type": "string",
+      "defaultValue": "jenkins"
     }
   },
   "variables": {
